@@ -1,0 +1,1230 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Flags of the World</title>
+    <link rel="stylesheet" href="/flags/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css">
+    <script src="/flags/script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row mt-5">
+        <h1>Flags of the World</h1>
+      </div>
+      <div class="row mt-5" id="filter-buttons">
+        <div class="col-12">
+          <button class="btn mb-2 me-1 active" data-filter="all">Show all</button>
+          <button class="btn mb-2 mx-1" data-filter="af">Africa</button>
+          <button class="btn mb-2 mx-1" data-filter="as">Asia</button>
+          <button class="btn mb-2 mx-1" data-filter="eu">Europe</button>
+          <button class="btn mb-2 mx-1" data-filter="na">North America</button>
+          <button class="btn mb-2 mx-1" data-filter="oc">Oceania</button>
+          <button class="btn mb-2 mx-1" data-filter="sa">South America</button>
+        </div>
+      </div>
+      <div class="row px-2 mt-4 gap-3" id="filterable-cards">
+        <div class="card p-0" data-name="as">
+          <img src="/flags/svg/af.svg" alt="Afghanistan">
+          <div class="card-body">
+            <h6 class="card-title">Afghanistan</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="eu">
+          <img src="/flags/svg/al.svg" alt="Albania">
+          <div class="card-body">
+            <h6 class="card-title">Albania</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="af">
+          <img src="/flags/svg/dz.svg" alt="Algeria">
+          <div class="card-body">
+            <h6 class="card-title">Algeria</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="eu">
+          <img src="/flags/svg/ad.svg" alt="Andorra">
+          <div class="card-body">
+            <h6 class="card-title">Andorra</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="af">
+          <img src="/flags/svg/ao.svg" alt="Angola">
+          <div class="card-body">
+            <h6 class="card-title">Angola</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="na">
+          <img src="/flags/svg/ag.svg" alt="Antigua and Barbuda">
+          <div class="card-body">
+            <h6 class="card-title">Antigua and Barbuda</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="sa">
+          <img src="/flags/svg/ar.svg" alt="Argentina">
+          <div class="card-body">
+            <h6 class="card-title">Argentina</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="as">
+          <img src="/flags/svg/am.svg" alt="Armenia">
+          <div class="card-body">
+            <h6 class="card-title">Armenia</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="oc">
+          <img src="/flags/svg/au.svg" alt="Australia">
+          <div class="card-body">
+            <h6 class="card-title">Australia</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="eu">
+          <img src="/flags/svg/at.svg" alt="Austria">
+          <div class="card-body">
+            <h6 class="card-title">Austria</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="as">
+          <img src="/flags/svg/az.svg" alt="Azerbaijan">
+          <div class="card-body">
+            <h6 class="card-title">Azerbaijan</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="as">
+          <img src="/flags/svg/bh.svg" alt="Bahrain">
+          <div class="card-body">
+            <h6 class="card-title">Bahrain</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="as">
+          <img src="/flags/svg/bd.svg" alt="Bangladesh">
+          <div class="card-body">
+            <h6 class="card-title">Bangladesh</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="na">
+          <img src="/flags/svg/bb.svg" alt="Barbados">
+          <div class="card-body">
+            <h6 class="card-title">Barbados</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="eu">
+          <img src="/flags/svg/by.svg" alt="Belarus">
+          <div class="card-body">
+            <h6 class="card-title">Belarus</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="eu">
+          <img src="/flags/svg/be.svg" alt="Belgium">
+          <div class="card-body">
+            <h6 class="card-title">Belgium</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="na">
+          <img src="/flags/svg/bz.svg" alt="Belize">
+          <div class="card-body">
+            <h6 class="card-title">Belize</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="af">
+          <img src="/flags/svg/bj.svg" alt="Benin">
+          <div class="card-body">
+            <h6 class="card-title">Benin</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="as">
+          <img src="/flags/svg/bt.svg" alt="Bhutan">
+          <div class="card-body">
+            <h6 class="card-title">Bhutan</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="sa">
+          <img src="/flags/svg/bo.svg" alt="Bolivia">
+          <div class="card-body">
+            <h6 class="card-title">Bolivia</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="eu">
+          <img src="/flags/svg/ba.svg" alt="Bosnia and Herzegovina">
+          <div class="card-body">
+            <h6 class="card-title">Bosnia and Herzegovina</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="af">
+          <img src="/flags/svg/bw.svg" alt="Botswana">
+          <div class="card-body">
+            <h6 class="card-title">Botswana</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="sa">
+          <img src="/flags/svg/br.svg" alt="Brazil">
+          <div class="card-body">
+            <h6 class="card-title">Brazil</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="as">
+          <img src="/flags/svg/bn.svg" alt="Brunei">
+          <div class="card-body">
+            <h6 class="card-title">Brunei</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="eu">
+          <img src="/flags/svg/bg.svg" alt="Bulgaria">
+          <div class="card-body">
+            <h6 class="card-title">Bulgaria</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="af">
+          <img src="/flags/svg/bf.svg" alt="Burkina Faso">
+          <div class="card-body">
+            <h6 class="card-title">Burkina Faso</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="af">
+          <img src="/flags/svg/bi.svg" alt="Burundi">
+          <div class="card-body">
+            <h6 class="card-title">Burundi</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="af">
+          <img src="/flags/svg/cv.svg" alt="Cabo Verde">
+          <div class="card-body">
+            <h6 class="card-title">Cabo Verde</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="as">
+          <img src="/flags/svg/kh.svg" alt="Cambodia">
+          <div class="card-body">
+            <h6 class="card-title">Cambodia</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="af">
+          <img src="/flags/svg/cm.svg" alt="Cameroon">
+          <div class="card-body">
+            <h6 class="card-title">Cameroon</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="na">
+          <img src="/flags/svg/ca.svg" alt="Canada">
+          <div class="card-body">
+            <h6 class="card-title">Canada</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="af">
+          <img src="/flags/svg/cf.svg" alt="Central African Republic">
+          <div class="card-body">
+            <h6 class="card-title">Central African Republic</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="af">
+          <img src="/flags/svg/td.svg" alt="Chad">
+          <div class="card-body">
+            <h6 class="card-title">Chad</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="sa">
+          <img src="/flags/svg/cl.svg" alt="Chile">
+          <div class="card-body">
+            <h6 class="card-title">Chile</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="as">
+          <img src="/flags/svg/cn.svg" alt="China">
+          <div class="card-body">
+            <h6 class="card-title">China</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="sa">
+          <img src="/flags/svg/co.svg" alt="Colombia">
+          <div class="card-body">
+            <h6 class="card-title">Colombia</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="af">
+          <img src="/flags/svg/km.svg" alt="Comoros">
+          <div class="card-body">
+            <h6 class="card-title">Comoros</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="oc">
+          <img src="/flags/svg/ck.svg" alt="Cook Islands">
+          <div class="card-body">
+            <h6 class="card-title">Cook Islands</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="na">
+          <img src="/flags/svg/cr.svg" alt="Costa Rica">
+          <div class="card-body">
+            <h6 class="card-title">Costa Rica</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="af">
+          <img src="/flags/svg/ci.svg" alt="Côte d'Ivoire">
+          <div class="card-body">
+            <h6 class="card-title">Côte d'Ivoire</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="eu">
+          <img src="/flags/svg/hr.svg" alt="Croatia">
+          <div class="card-body">
+            <h6 class="card-title">Croatia</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="na">
+          <img src="/flags/svg/cu.svg" alt="Cuba">
+          <div class="card-body">
+            <h6 class="card-title">Cuba</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="eu">
+          <img src="/flags/svg/cy.svg" alt="Cyprus">
+          <div class="card-body">
+            <h6 class="card-title">Cyprus</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="eu">
+          <img src="/flags/svg/cz.svg" alt="Czechia">
+          <div class="card-body">
+            <h6 class="card-title">Czechia</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="af">
+          <img src="/flags/svg/cd.svg" alt="Democratic Republic of the Congo">
+          <div class="card-body">
+            <h6 class="card-title">Democratic Republic of the Congo</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="eu">
+          <img src="/flags/svg/dk.svg" alt="Denmark">
+          <div class="card-body">
+            <h6 class="card-title">Denmark</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="af">
+          <img src="/flags/svg/dj.svg" alt="Djibouti">
+          <div class="card-body">
+            <h6 class="card-title">Djibouti</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="na">
+          <img src="/flags/svg/dm.svg" alt="Dominica">
+          <div class="card-body">
+            <h6 class="card-title">Dominica</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="na">
+          <img src="/flags/svg/do.svg" alt="Dominican Republic">
+          <div class="card-body">
+            <h6 class="card-title">Dominican Republic</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="sa">
+          <img src="/flags/svg/ec.svg" alt="Ecuador">
+          <div class="card-body">
+            <h6 class="card-title">Ecuador</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="af">
+          <img src="/flags/svg/eg.svg" alt="Egypt">
+          <div class="card-body">
+            <h6 class="card-title">Egypt</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="na">
+          <img src="/flags/svg/sv.svg" alt="El Salvador">
+          <div class="card-body">
+            <h6 class="card-title">El Salvador</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="af">
+          <img src="/flags/svg/gq.svg" alt="Equatorial Guinea">
+          <div class="card-body">
+            <h6 class="card-title">Equatorial Guinea</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="af">
+          <img src="/flags/svg/er.svg" alt="Eritrea">
+          <div class="card-body">
+            <h6 class="card-title">Eritrea</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="eu">
+          <img src="/flags/svg/ee.svg" alt="Estonia">
+          <div class="card-body">
+            <h6 class="card-title">Estonia</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="af">
+          <img src="/flags/svg/sz.svg" alt="Eswatini">
+          <div class="card-body">
+            <h6 class="card-title">Eswatini</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="af">
+          <img src="/flags/svg/et.svg" alt="Ethiopia">
+          <div class="card-body">
+            <h6 class="card-title">Ethiopia</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="oc">
+          <img src="/flags/svg/fj.svg" alt="Fiji">
+          <div class="card-body">
+            <h6 class="card-title">Fiji</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="eu">
+          <img src="/flags/svg/fi.svg" alt="Finland">
+          <div class="card-body">
+            <h6 class="card-title">Finland</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="eu">
+          <img src="/flags/svg/fr.svg" alt="France">
+          <div class="card-body">
+            <h6 class="card-title">France</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="af">
+          <img src="/flags/svg/ga.svg" alt="Gabon">
+          <div class="card-body">
+            <h6 class="card-title">Gabon</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="as">
+          <img src="/flags/svg/ge.svg" alt="Georgia">
+          <div class="card-body">
+            <h6 class="card-title">Georgia</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="eu">
+          <img src="/flags/svg/de.svg" alt="Germany">
+          <div class="card-body">
+            <h6 class="card-title">Germany</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="af">
+          <img src="/flags/svg/gh.svg" alt="Ghana">
+          <div class="card-body">
+            <h6 class="card-title">Ghana</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="eu">
+          <img src="/flags/svg/gr.svg" alt="Greece">
+          <div class="card-body">
+            <h6 class="card-title">Greece</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="na">
+          <img src="/flags/svg/gd.svg" alt="Grenada">
+          <div class="card-body">
+            <h6 class="card-title">Grenada</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="na">
+          <img src="/flags/svg/gt.svg" alt="Guatemala">
+          <div class="card-body">
+            <h6 class="card-title">Guatemala</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="af">
+          <img src="/flags/svg/gn.svg" alt="Guinea">
+          <div class="card-body">
+            <h6 class="card-title">Guinea</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="af">
+          <img src="/flags/svg/gw.svg" alt="Guinea-Bissau">
+          <div class="card-body">
+            <h6 class="card-title">Guinea-Bissau</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="sa">
+          <img src="/flags/svg/gy.svg" alt="Guyana">
+          <div class="card-body">
+            <h6 class="card-title">Guyana</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="na">
+          <img src="/flags/svg/ht.svg" alt="Haiti">
+          <div class="card-body">
+            <h6 class="card-title">Haiti</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="na">
+          <img src="/flags/svg/hn.svg" alt="Honduras">
+          <div class="card-body">
+            <h6 class="card-title">Honduras</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="eu">
+          <img src="/flags/svg/hu.svg" alt="Hungary">
+          <div class="card-body">
+            <h6 class="card-title">Hungary</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="eu">
+          <img src="/flags/svg/is.svg" alt="Iceland">
+          <div class="card-body">
+            <h6 class="card-title">Iceland</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="as">
+          <img src="/flags/svg/in.svg" alt="India">
+          <div class="card-body">
+            <h6 class="card-title">India</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="as">
+          <img src="/flags/svg/id.svg" alt="Indonesia">
+          <div class="card-body">
+            <h6 class="card-title">Indonesia</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="as">
+          <img src="/flags/svg/ir.svg" alt="Iran">
+          <div class="card-body">
+            <h6 class="card-title">Iran</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="as">
+          <img src="/flags/svg/iq.svg" alt="Iraq">
+          <div class="card-body">
+            <h6 class="card-title">Iraq</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="eu">
+          <img src="/flags/svg/ie.svg" alt="Ireland">
+          <div class="card-body">
+            <h6 class="card-title">Ireland</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="as">
+          <img src="/flags/svg/il.svg" alt="Israel">
+          <div class="card-body">
+            <h6 class="card-title">Israel</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="eu">
+          <img src="/flags/svg/it.svg" alt="Italy">
+          <div class="card-body">
+            <h6 class="card-title">Italy</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="na">
+          <img src="/flags/svg/jm.svg" alt="Jamaica">
+          <div class="card-body">
+            <h6 class="card-title">Jamaica</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="as">
+          <img src="/flags/svg/jp.svg" alt="Japan">
+          <div class="card-body">
+            <h6 class="card-title">Japan</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="as">
+          <img src="/flags/svg/jo.svg" alt="Jordan">
+          <div class="card-body">
+            <h6 class="card-title">Jordan</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="as">
+          <img src="/flags/svg/kz.svg" alt="Kazakhstan">
+          <div class="card-body">
+            <h6 class="card-title">Kazakhstan</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="af">
+          <img src="/flags/svg/ke.svg" alt="Kenya">
+          <div class="card-body">
+            <h6 class="card-title">Kenya</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="oc">
+          <img src="/flags/svg/ki.svg" alt="Kiribati">
+          <div class="card-body">
+            <h6 class="card-title">Kiribati</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="eu">
+          <img src="/flags/svg/xk.svg" alt="Kosovo">
+          <div class="card-body">
+            <h6 class="card-title">Kosovo</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="as">
+          <img src="/flags/svg/kw.svg" alt="Kuwait">
+          <div class="card-body">
+            <h6 class="card-title">Kuwait</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="as">
+          <img src="/flags/svg/kg.svg" alt="Kyrgyzstan">
+          <div class="card-body">
+            <h6 class="card-title">Kyrgyzstan</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="as">
+          <img src="/flags/svg/la.svg" alt="Laos">
+          <div class="card-body">
+            <h6 class="card-title">Laos</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="eu">
+          <img src="/flags/svg/lv.svg" alt="Latvia">
+          <div class="card-body">
+            <h6 class="card-title">Latvia</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="as">
+          <img src="/flags/svg/lb.svg" alt="Lebanon">
+          <div class="card-body">
+            <h6 class="card-title">Lebanon</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="af">
+          <img src="/flags/svg/ls.svg" alt="Lesotho">
+          <div class="card-body">
+            <h6 class="card-title">Lesotho</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="af">
+          <img src="/flags/svg/lr.svg" alt="Liberia">
+          <div class="card-body">
+            <h6 class="card-title">Liberia</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="af">
+          <img src="/flags/svg/ly.svg" alt="Libya">
+          <div class="card-body">
+            <h6 class="card-title">Libya</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="eu">
+          <img src="/flags/svg/li.svg" alt="Liechtenstein">
+          <div class="card-body">
+            <h6 class="card-title">Liechtenstein</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="eu">
+          <img src="/flags/svg/lt.svg" alt="Lithuania">
+          <div class="card-body">
+            <h6 class="card-title">Lithuania</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="eu">
+          <img src="/flags/svg/lu.svg" alt="Luxembourg">
+          <div class="card-body">
+            <h6 class="card-title">Luxembourg</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="af">
+          <img src="/flags/svg/mg.svg" alt="Madagascar">
+          <div class="card-body">
+            <h6 class="card-title">Madagascar</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="af">
+          <img src="/flags/svg/mw.svg" alt="Malawi">
+          <div class="card-body">
+            <h6 class="card-title">Malawi</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="as">
+          <img src="/flags/svg/my.svg" alt="Malaysia">
+          <div class="card-body">
+            <h6 class="card-title">Malaysia</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="as">
+          <img src="/flags/svg/mv.svg" alt="Maldives">
+          <div class="card-body">
+            <h6 class="card-title">Maldives</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="af">
+          <img src="/flags/svg/ml.svg" alt="Mali">
+          <div class="card-body">
+            <h6 class="card-title">Mali</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="eu">
+          <img src="/flags/svg/mt.svg" alt="Malta">
+          <div class="card-body">
+            <h6 class="card-title">Malta</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="oc">
+          <img src="/flags/svg/mh.svg" alt="Marshall Islands">
+          <div class="card-body">
+            <h6 class="card-title">Marshall Islands</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="af">
+          <img src="/flags/svg/mr.svg" alt="Mauritania">
+          <div class="card-body">
+            <h6 class="card-title">Mauritania</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="af">
+          <img src="/flags/svg/mu.svg" alt="Mauritius">
+          <div class="card-body">
+            <h6 class="card-title">Mauritius</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="na">
+          <img src="/flags/svg/mx.svg" alt="Mexico">
+          <div class="card-body">
+            <h6 class="card-title">Mexico</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="oc">
+          <img src="/flags/svg/fm.svg" alt="Micronesia">
+          <div class="card-body">
+            <h6 class="card-title">Micronesia</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="eu">
+          <img src="/flags/svg/md.svg" alt="Moldova">
+          <div class="card-body">
+            <h6 class="card-title">Moldova</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="eu">
+          <img src="/flags/svg/mc.svg" alt="Monaco">
+          <div class="card-body">
+            <h6 class="card-title">Monaco</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="as">
+          <img src="/flags/svg/mn.svg" alt="Mongolia">
+          <div class="card-body">
+            <h6 class="card-title">Mongolia</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="eu">
+          <img src="/flags/svg/me.svg" alt="Montenegro">
+          <div class="card-body">
+            <h6 class="card-title">Montenegro</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="af">
+          <img src="/flags/svg/ma.svg" alt="Morocco">
+          <div class="card-body">
+            <h6 class="card-title">Morocco</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="af">
+          <img src="/flags/svg/mz.svg" alt="Mozambique">
+          <div class="card-body">
+            <h6 class="card-title">Mozambique</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="as">
+          <img src="/flags/svg/mm.svg" alt="Myanmar (Burma)">
+          <div class="card-body">
+            <h6 class="card-title">Myanmar (Burma)</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="af">
+          <img src="/flags/svg/na.svg" alt="Namibia">
+          <div class="card-body">
+            <h6 class="card-title">Namibia</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="oc">
+          <img src="/flags/svg/nr.svg" alt="Nauru">
+          <div class="card-body">
+            <h6 class="card-title">Nauru</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="as">
+          <img src="/flags/svg/np.svg" alt="Nepal">
+          <div class="card-body">
+            <h6 class="card-title">Nepal</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="eu">
+          <img src="/flags/svg/nl.svg" alt="Netherlands">
+          <div class="card-body">
+            <h6 class="card-title">Netherlands</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="oc">
+          <img src="/flags/svg/nz.svg" alt="New Zealand">
+          <div class="card-body">
+            <h6 class="card-title">New Zealand</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="na">
+          <img src="/flags/svg/ni.svg" alt="Nicaragua">
+          <div class="card-body">
+            <h6 class="card-title">Nicaragua</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="af">
+          <img src="/flags/svg/ne.svg" alt="Niger">
+          <div class="card-body">
+            <h6 class="card-title">Niger</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="af">
+          <img src="/flags/svg/ng.svg" alt="Nigeria">
+          <div class="card-body">
+            <h6 class="card-title">Nigeria</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="oc">
+          <img src="/flags/svg/nu.svg" alt="Niue">
+          <div class="card-body">
+            <h6 class="card-title">Niue</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="as">
+          <img src="/flags/svg/kp.svg" alt="North Korea">
+          <div class="card-body">
+            <h6 class="card-title">North Korea</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="eu">
+          <img src="/flags/svg/mk.svg" alt="North Macedonia">
+          <div class="card-body">
+            <h6 class="card-title">North Macedonia</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="eu">
+          <img src="/flags/svg/no.svg" alt="Norway">
+          <div class="card-body">
+            <h6 class="card-title">Norway</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="as">
+          <img src="/flags/svg/om.svg" alt="Oman">
+          <div class="card-body">
+            <h6 class="card-title">Oman</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="as">
+          <img src="/flags/svg/pk.svg" alt="Pakistan">
+          <div class="card-body">
+            <h6 class="card-title">Pakistan</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="oc">
+          <img src="/flags/svg/pw.svg" alt="Palau">
+          <div class="card-body">
+            <h6 class="card-title">Palau</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="as">
+          <img src="/flags/svg/ps.svg" alt="Palestine">
+          <div class="card-body">
+            <h6 class="card-title">Palestine</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="na">
+          <img src="/flags/svg/pa.svg" alt="Panama">
+          <div class="card-body">
+            <h6 class="card-title">Panama</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="oc">
+          <img src="/flags/svg/pg.svg" alt="Papua New Guinea">
+          <div class="card-body">
+            <h6 class="card-title">Papua New Guinea</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="sa">
+          <img src="/flags/svg/py.svg" alt="Paraguay">
+          <div class="card-body">
+            <h6 class="card-title">Paraguay</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="sa">
+          <img src="/flags/svg/pe.svg" alt="Peru">
+          <div class="card-body">
+            <h6 class="card-title">Peru</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="as">
+          <img src="/flags/svg/ph.svg" alt="Philippines">
+          <div class="card-body">
+            <h6 class="card-title">Philippines</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="eu">
+          <img src="/flags/svg/pl.svg" alt="Poland">
+          <div class="card-body">
+            <h6 class="card-title">Poland</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="eu">
+          <img src="/flags/svg/pt.svg" alt="Portugal">
+          <div class="card-body">
+            <h6 class="card-title">Portugal</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="as">
+          <img src="/flags/svg/qa.svg" alt="Qatar">
+          <div class="card-body">
+            <h6 class="card-title">Qatar</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="af">
+          <img src="/flags/svg/cg.svg" alt="Republic of the Congo">
+          <div class="card-body">
+            <h6 class="card-title">Republic of the Congo</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="eu">
+          <img src="/flags/svg/ro.svg" alt="Romania">
+          <div class="card-body">
+            <h6 class="card-title">Romania</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="eu">
+          <img src="/flags/svg/ru.svg" alt="Russia">
+          <div class="card-body">
+            <h6 class="card-title">Russia</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="af">
+          <img src="/flags/svg/rw.svg" alt="Rwanda">
+          <div class="card-body">
+            <h6 class="card-title">Rwanda</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="na">
+          <img src="/flags/svg/kn.svg" alt="Saint Kitts and Nevis">
+          <div class="card-body">
+            <h6 class="card-title">Saint Kitts and Nevis</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="na">
+          <img src="/flags/svg/lc.svg" alt="Saint Lucia">
+          <div class="card-body">
+            <h6 class="card-title">Saint Lucia</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="na">
+          <img src="/flags/svg/vc.svg" alt="Saint Vincent and the Grenadines">
+          <div class="card-body">
+            <h6 class="card-title">Saint Vincent and the Grenadines</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="oc">
+          <img src="/flags/svg/ws.svg" alt="Samoa">
+          <div class="card-body">
+            <h6 class="card-title">Samoa</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="eu">
+          <img src="/flags/svg/sm.svg" alt="San Marino">
+          <div class="card-body">
+            <h6 class="card-title">San Marino</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="af">
+          <img src="/flags/svg/st.svg" alt="São Tomé and Príncipe">
+          <div class="card-body">
+            <h6 class="card-title">São Tomé and Príncipe</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="as">
+          <img src="/flags/svg/sa.svg" alt="Saudi Arabia">
+          <div class="card-body">
+            <h6 class="card-title">Saudi Arabia</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="af">
+          <img src="/flags/svg/sn.svg" alt="Senegal">
+          <div class="card-body">
+            <h6 class="card-title">Senegal</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="eu">
+          <img src="/flags/svg/rs.svg" alt="Serbia">
+          <div class="card-body">
+            <h6 class="card-title">Serbia</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="af">
+          <img src="/flags/svg/sc.svg" alt="Seychelles">
+          <div class="card-body">
+            <h6 class="card-title">Seychelles</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="af">
+          <img src="/flags/svg/sl.svg" alt="Sierra Leone">
+          <div class="card-body">
+            <h6 class="card-title">Sierra Leone</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="as">
+          <img src="/flags/svg/sg.svg" alt="Singapore">
+          <div class="card-body">
+            <h6 class="card-title">Singapore</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="eu">
+          <img src="/flags/svg/sk.svg" alt="Slovakia">
+          <div class="card-body">
+            <h6 class="card-title">Slovakia</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="eu">
+          <img src="/flags/svg/si.svg" alt="Slovenia">
+          <div class="card-body">
+            <h6 class="card-title">Slovenia</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="oc">
+          <img src="/flags/svg/sb.svg" alt="Solomon Islands">
+          <div class="card-body">
+            <h6 class="card-title">Solomon Islands</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="af">
+          <img src="/flags/svg/so.svg" alt="Somalia">
+          <div class="card-body">
+            <h6 class="card-title">Somalia</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="af">
+          <img src="/flags/svg/za.svg" alt="South Africa">
+          <div class="card-body">
+            <h6 class="card-title">South Africa</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="as">
+          <img src="/flags/svg/kr.svg" alt="South Korea">
+          <div class="card-body">
+            <h6 class="card-title">South Korea</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="af">
+          <img src="/flags/svg/ss.svg" alt="South Sudan">
+          <div class="card-body">
+            <h6 class="card-title">South Sudan</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="eu">
+          <img src="/flags/svg/es.svg" alt="Spain">
+          <div class="card-body">
+            <h6 class="card-title">Spain</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="as">
+          <img src="/flags/svg/lk.svg" alt="Sri Lanka">
+          <div class="card-body">
+            <h6 class="card-title">Sri Lanka</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="af">
+          <img src="/flags/svg/sd.svg" alt="Sudan">
+          <div class="card-body">
+            <h6 class="card-title">Sudan</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="sa">
+          <img src="/flags/svg/sr.svg" alt="Suriname">
+          <div class="card-body">
+            <h6 class="card-title">Suriname</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="eu">
+          <img src="/flags/svg/se.svg" alt="Sweden">
+          <div class="card-body">
+            <h6 class="card-title">Sweden</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="eu">
+          <img src="/flags/svg/ch.svg" alt="Switzerland">
+          <div class="card-body">
+            <h6 class="card-title">Switzerland</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="as">
+          <img src="/flags/svg/sy.svg" alt="Syria">
+          <div class="card-body">
+            <h6 class="card-title">Syria</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="as">
+          <img src="/flags/svg/tw.svg" alt="Taiwan">
+          <div class="card-body">
+            <h6 class="card-title">Taiwan</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="as">
+          <img src="/flags/svg/tj.svg" alt="Tajikistan">
+          <div class="card-body">
+            <h6 class="card-title">Tajikistan</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="af">
+          <img src="/flags/svg/tz.svg" alt="Tanzania">
+          <div class="card-body">
+            <h6 class="card-title">Tanzania</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="as">
+          <img src="/flags/svg/th.svg" alt="Thailand">
+          <div class="card-body">
+            <h6 class="card-title">Thailand</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="na">
+          <img src="/flags/svg/bs.svg" alt="The Bahamas">
+          <div class="card-body">
+            <h6 class="card-title">The Bahamas</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="af">
+          <img src="/flags/svg/gm.svg" alt="The Gambia">
+          <div class="card-body">
+            <h6 class="card-title">The Gambia</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="oc">
+          <img src="/flags/svg/tl.svg" alt="Timor-Leste">
+          <div class="card-body">
+            <h6 class="card-title">Timor-Leste</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="af">
+          <img src="/flags/svg/tg.svg" alt="Togo">
+          <div class="card-body">
+            <h6 class="card-title">Togo</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="oc">
+          <img src="/flags/svg/to.svg" alt="Tonga">
+          <div class="card-body">
+            <h6 class="card-title">Tonga</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="na">
+          <img src="/flags/svg/tt.svg" alt="Trinidad and Tobago">
+          <div class="card-body">
+            <h6 class="card-title">Trinidad and Tobago</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="af">
+          <img src="/flags/svg/tn.svg" alt="Tunisia">
+          <div class="card-body">
+            <h6 class="card-title">Tunisia</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="as">
+          <img src="/flags/svg/tr.svg" alt="Türkiye">
+          <div class="card-body">
+            <h6 class="card-title">Türkiye</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="as">
+          <img src="/flags/svg/tm.svg" alt="Turkmenistan">
+          <div class="card-body">
+            <h6 class="card-title">Turkmenistan</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="oc">
+          <img src="/flags/svg/tv.svg" alt="Tuvalu">
+          <div class="card-body">
+            <h6 class="card-title">Tuvalu</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="af">
+          <img src="/flags/svg/ug.svg" alt="Uganda">
+          <div class="card-body">
+            <h6 class="card-title">Uganda</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="eu">
+          <img src="/flags/svg/ua.svg" alt="Ukraine">
+          <div class="card-body">
+            <h6 class="card-title">Ukraine</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="as">
+          <img src="/flags/svg/ae.svg" alt="United Arab Emirates">
+          <div class="card-body">
+            <h6 class="card-title">United Arab Emirates</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="eu">
+          <img src="/flags/svg/gb.svg" alt="United Kingdom">
+          <div class="card-body">
+            <h6 class="card-title">United Kingdom</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="na">
+          <img src="/flags/svg/us.svg" alt="United States">
+          <div class="card-body">
+            <h6 class="card-title">United States</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="sa">
+          <img src="/flags/svg/uy.svg" alt="Uruguay">
+          <div class="card-body">
+            <h6 class="card-title">Uruguay</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="as">
+          <img src="/flags/svg/uz.svg" alt="Uzbekistan">
+          <div class="card-body">
+            <h6 class="card-title">Uzbekistan</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="oc">
+          <img src="/flags/svg/vu.svg" alt="Vanuatu">
+          <div class="card-body">
+            <h6 class="card-title">Vanuatu</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="eu">
+          <img src="/flags/svg/va.svg" alt="Vatican City">
+          <div class="card-body">
+            <h6 class="card-title">Vatican City</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="sa">
+          <img src="/flags/svg/ve.svg" alt="Venezuela">
+          <div class="card-body">
+            <h6 class="card-title">Venezuela</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="as">
+          <img src="/flags/svg/vn.svg" alt="Vietnam">
+          <div class="card-body">
+            <h6 class="card-title">Vietnam</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="af">
+          <img src="/flags/svg/eh.svg" alt="Western Sahara">
+          <div class="card-body">
+            <h6 class="card-title">Western Sahara</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="as">
+          <img src="/flags/svg/ye.svg" alt="Yemen">
+          <div class="card-body">
+            <h6 class="card-title">Yemen</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="af">
+          <img src="/flags/svg/zm.svg" alt="Zambia">
+          <div class="card-body">
+            <h6 class="card-title">Zambia</h6>
+          </div>
+        </div>
+        <div class="card p-0" data-name="af">
+          <img src="/flags/svg/zw.svg" alt="Zimbabwe">
+          <div class="card-body">
+            <h6 class="card-title">Zimbabwe</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
